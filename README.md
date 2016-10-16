@@ -10,6 +10,8 @@ GA is taking an Oktoberfest tour and coming to a city near you! Hop over to your
 
 ## Front-end
 
+During the event, you'll walk students through the starter code. You might have to adjust depending on how much time you have to work with.
+
 * [Codepen Solution](http://codepen.io/mdang/pen/gwdWmp)
 * Codepen Starter
 
