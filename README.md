@@ -4,17 +4,9 @@ GA is taking an Oktoberfest tour and coming to a city near you! Hop over to your
 
 ## Locations 
 
-#### Dallas
-
-https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30155
-
-#### Houston 
-
-https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30043
-
-#### San Antonio
-
-https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30568
+* Dallas - https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30155
+* Houston - https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30043
+* San Antonio - https://generalassemb.ly/education/the-oktoberfest-tour-code-brews/austin/30568
 
 ## Front-end
 
