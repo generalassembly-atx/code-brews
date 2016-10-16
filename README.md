@@ -10,9 +10,16 @@ GA is taking an Oktoberfest tour and coming to a city near you! Hop over to your
 
 ## Front-end
 
+During the event, you'll walk students through the starter code. You might have to adjust depending on how much time you have to work with.
+
 * [Codepen Solution](http://codepen.io/mdang/pen/gwdWmp)
 * Codepen Starter
 
 ## Back-end
 
-Although the front-end lives on Codepen, the app requires a server side proxy to the brewerydb API because it's not CORS enabled or supports JSONP as of this moment.
+Although the front-end lives on Codepen, the app requires a server side proxy to the brewerydb API because it's not CORS enabled or supports JSONP as of this moment. The other reason why is because the API itself is not secure, whereas Heroku is. 
+
+### Endpoints
+
+* Beers - https://codeandbrew.herokuapp.com/api/beers
+* Beer - https://codeandbrew.herokuapp.com/api/beers/:beerId
