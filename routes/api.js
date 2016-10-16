@@ -16,6 +16,7 @@ router.get('/beers', function(req, res, next) {
   const params = Object.assign({
     key: process.env.BREWERYDB_API_KEY
   }, req.query);
+  
   axios.get(`${ process.env.BREWERYDB_API_BASE_URL }beers`, {
     params: params
   })
