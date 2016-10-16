@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var axios = require('axios');
+const axios = require('axios');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -16,7 +16,7 @@ router.get('/beers', function(req, res, next) {
   const params = Object.assign({
     key: process.env.BREWERYDB_API_KEY
   }, req.query);
-  
+
   axios.get(`${ process.env.BREWERYDB_API_BASE_URL }beers`, {
     params: params
   })
