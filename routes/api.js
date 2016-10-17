@@ -24,6 +24,7 @@ router.get('/beers', function(req, res, next) {
     res.json(response.data);
   })
   .catch(function(error) {
+    console.log('Unable to request /beers', error);
     res.status(500).send(error);
   });
 });
@@ -43,6 +44,7 @@ router.get('/beers/:beerId', function(req, res, next) {
     res.json(response.data);
   })
   .catch(function(error) {
+    console.log('Unable to request /beer/:beerId', error);
     res.status(500).send(error);
   });
 });
